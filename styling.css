@@ -1,6 +1,6 @@
 :root{
-    --primary-color: green;
-    --text-color: white;
+    --primary-color: rgb(248, 196, 90);
+    --text-color: rgb(146, 80, 80);
 }
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Corinthia:wght@700&family=Meow+Script&family=Merriweather:ital,wght@0,700;0,900;1,700&family=Ubuntu:wght@300;500&display=swap');
 footer,nav{
@@ -17,11 +17,6 @@ body{
     margin: 0rem;
     font-family: sans-serif;
 }
-#what{
-    margin-left: 1rem;
-    margin-top: 2rem;
-    padding-top: 1rem;
-}
 button{
     margin-top: 2rem;
     margin-left: 1rem;
@@ -32,9 +27,10 @@ button{
 textarea {
     box-sizing: border-box;
     display: block;
-    
+    font-style: italic;
     width: 100%;
-    min-height: 20vh;
+    height: 10%;
+    min-height: 10vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
@@ -48,6 +44,7 @@ max-width: 60%;
 footer{
     text-align: center;
     color: var(--text-color);
+    max-width: 95%;
 }
 
 
